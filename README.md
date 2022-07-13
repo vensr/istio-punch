@@ -1,4 +1,4 @@
-# Istio Punch - Service Mesh for microservices deployment
+# Istio - Service Mesh for microservices deployment
 
 Detailed process of setting up istio and related addons to ensure a complete microservice deployment using service mesh.
 
