@@ -12,7 +12,7 @@ To run this example here are the pre-requisites
 
 Lets use Helm to setup Istio on our Kubernetes cluster. Here a quick preview on how the entire system is being setup.
 
-![ISTIO](https://istio.io/latest/img/service-mesh.svg)
+![ISTIO](./images/service-mesh.svg)
 
 We will be setting up istiod service (control plane), as and when the applications are deployed on an istio enabled namespace, envoy proxy would be dynamically injected. We will also setup istio ingress service.
 
