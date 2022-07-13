@@ -199,3 +199,30 @@ Ensure the following.
 * You have selected the default namespace
 * Under display, you have selected the Response Time, Throughput, Traffic Distribution, Traffic Rate, Traffic Animation options.
 
+Here is a sample python script to generate load, one request per second.
+
+```python
+import time
+import requests
+
+url = 'http://localhost:9080/productpage'
+
+for lp in range(1000):
+    print(lp)
+    try:
+        headers = requests.utils.default_headers()
+
+        headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36'}
+
+        response= requests.get(url.strip(), headers=headers, timeout=10)
+    except:
+        print ("An error occurred")
+    time.sleep(1)    
+```
+
+Save the script in a file called 'urlhit.py' and run the same using
+
+```bash
+python3 urlhit.py
+```
+
