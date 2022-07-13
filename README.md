@@ -228,4 +228,5 @@ python3 urlhit.py
 
 You can also check the grafana dashboards where you can see the required metrics related to SRE under the istio folder. Here is a glimpse of how it would look.
 
-![GRAFANA](./images/grafana.gif)
+![GRAFANA1](./images/grafana-1.png)
+![GRAFANA2](./images/grafana-2.png)
