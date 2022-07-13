@@ -226,3 +226,6 @@ Save the script in a file called 'urlhit.py' and run the same using
 python3 urlhit.py
 ```
 
+You can also check the grafana dashboards where you can see the required metrics related to SRE under the istio folder. Here is a glimpse of how it would look.
+
+![GRAFANA](./images/grafana.gif)
