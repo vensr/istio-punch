@@ -169,8 +169,9 @@ Now we will try to install a sample application provided by Istio themselves cal
 The sample application provides an example for 4 services the productpage, reviews, ratings and details.
 
 How services call each other is as shown below.
-productpage -> details
-productpage -> reviews -> ratings
+
+* productpage -> details
+* productpage -> reviews -> ratings
 
 Lets follow the steps below to install the service.
 
